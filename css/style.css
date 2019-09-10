@@ -1,0 +1,286 @@
+/* Author Name: Meem;
+    Author Info: samayrameem86@gmail.com;
+*/
+
+/* Global CSS */
+body {
+	background: url(../img/bg1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+h1 {
+	color: #FDFCF7;
+	font-weight: 400;
+}
+h2 {
+	color: #FDFCF7;
+	font-weight: 400;
+}
+h4 {
+	color: #FDFCF7;
+	font-weight: 400;
+}
+h6 {
+	color: #66778e;
+	font-weight: 400;
+}
+.coel {
+	color: #265CA7;
+}
+.btn-custom-one {
+	background-color: transparent;
+    border: 1px solid #265CA7;
+    border-radius: 25px;
+    padding: 8px 30px;
+    margin-top: 50px;
+}
+
+/* Theme CSS */
+
+/* Header Part Start */
+header {
+	padding: 20px 0px;
+    text-align: center;
+}
+.fa.fa-bars {
+	font-size: 35px;
+    margin-top: 10px;
+    color: #255DA8;
+}
+.head-content {
+	padding: 30px 0px;
+    margin-top: 55px;
+}
+.head-content p {
+	color: #255DA8;
+	margin: 15px 0px;
+}
+
+/* Section One Start */
+.sec-one {
+	background: url(../img/bg2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+/* Section Two Start */
+.sec-two {
+	width: 98%;
+}
+.sec-two-img {
+	max-width: 105%;
+}
+.sec-two-content {
+	margin-top: 50px;
+}
+.sec-two-content p {
+	color: #5C708B;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+/* Section Three Start */
+.sec-three h1 {
+	text-align: center;
+	margin-top: 60px;
+}
+.sec-three-two {
+	margin-top: 40px;
+}
+.sec-three-content {
+	margin-top: 35px;
+}
+.sec-three-content h4 {
+	margin-top: 10px;
+}
+.sec-three-content p {
+	color: #5C708B;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.sec-three-content img {
+	width: 12%;
+}
+.pos-one {
+	max-width: 150%;
+    margin: -120px 0px 0px -90px;
+}
+
+/* Section Four Start */
+.sec-four {
+	width: 98%;
+	margin-top: -60px;
+	padding-bottom: 40px;
+}
+.sec-four-content {
+	margin-top: 50px;
+}
+.sec-four-content img {
+	width: 8%;
+}
+.sec-four-content h2 {
+	margin-top: 10px;
+}
+.sec-four-content p {
+	color: #5C708B;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.sec-four-img {
+	max-width: 104%;
+}
+
+/* Section Five Start*/
+.sec-five {
+	background: url(../img/bg3.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 30px 0px;
+}
+.sec-five h6 {
+	font-size: 20px;
+    padding: 30px 0px;
+    margin-top: 35px;
+}
+.sec-five p {
+    padding-bottom: 100px;
+    color: #213a61;
+}
+.sec-five p span {
+	color: #66778e;
+}
+.carousel-indicators li {
+	width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* Section Six Start*/
+.sec-six {
+	text-align: center;
+	padding: 60px 0px;
+}
+.sec-six p {
+	color: #5C708B;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.sec-six img {
+	margin-top: -115px;
+}
+.sec-six button {
+	margin-top: -170px;
+}
+
+/* Footer part Start */
+footer {
+	text-align: center;
+}
+.foot {
+	box-shadow: inset 0 1px #080d21;
+    padding: 30px 0px;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li{	
+	display: inline-block;	
+	margin: 0px 6px;
+}
+nav ul li a{
+	color: #25458a;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+	transition: 0.5s;
+}
+nav ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+footer p {
+	color: #25458a;
+    font-size: 15px;
+    font-weight: 600;
+}
+/*.............Media Query...............*/
+
+/*-----Mobile Device-----*/
+@media (min-width: 320px) and (max-width: 500px){
+.sec-two {
+    width: 96%;
+    text-align: center;
+}
+.sec-two-img {
+    max-width: 100%;
+    margin-top: 40px;
+}
+.sec-two-content {
+    padding-left: 30px;
+}
+.sec-three {
+	text-align: center;
+}
+.sec-three-two {
+    margin-top: 0px;
+}
+.mob-one {
+	margin-top: -50px;
+}
+.pos-one {
+    max-width: 100%;
+    margin: -60px 0px 0px 0px;
+}    
+.sec-four {
+    width: 96%;
+    text-align: center;
+    margin-top: 25px;
+}
+.sec-four-content {
+    padding-left: 30px;
+}
+.sec-four-content img {
+    width: 15%;
+}
+.sec-four-img {
+    margin-top: 15px;
+}
+.carousel-inner {
+    margin-left: 0px;
+}
+.sec-six img {
+    margin-top: -60px;
+}
+.sec-six button {
+    margin-top: -20px;
+}
+nav {
+	margin-left: -32px;
+}
+nav ul li a{
+    font-size: 13px;
+}
+footer p {
+    font-size: 13px;
+}
+
+}
+
+/*-----Tab/Small Device-----*/
+@media (min-width: 501px) and (max-width: 768px){
+
+}
+
+/*-----Laptop/Desktop Device-----*/
+@media (min-width: 769px) and (max-width: 1200px){
+
+}
+
+/*-----Large Device-----*/
+@media (min-width: 1201px){
+
+}
